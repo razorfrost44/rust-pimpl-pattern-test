@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    pimpl_test_1::run();
 }
