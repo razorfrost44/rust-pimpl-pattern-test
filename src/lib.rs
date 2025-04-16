@@ -8,7 +8,7 @@ pub fn run() {
     println!("{}", my_class_with_trait.get_value()); // Output: 5
     println!("{}", my_class_with_trait.times_two()); // Output: 10
 
-    let my_class_only_struct = MyClassOnlyStruct::new(10);
-    println!("{}", my_class_only_struct.get_value()); // Output: 10
-    println!("{}", my_class_only_struct.times_two()); // Output: 20
+    let my_class_only_struct = MyClassOnlyStruct::new(12);
+    println!("{}", my_class_only_struct.get_value()); // Output: 12
+    println!("{}", my_class_only_struct.times_two()); // Output: 24
 }
