@@ -20,11 +20,11 @@ mod private {
 
 use private::PrivateImpl;
 
-pub struct MyClassOnlyStruct {
+pub struct MyClassStruct {
     private_impl: Box<PrivateImpl>,
 }
 
-impl MyClassOnlyStruct {
+impl MyClassStruct {
     pub fn new(value: i32) -> Self {
         Self {
             private_impl: Box::new(PrivateImpl::new(value)),
